@@ -1,6 +1,7 @@
 .para,
 .small-para {
   color: hsl(0, 100%, 50%);
+  font-size: 22px;
 }
 
 .small-para {
@@ -8,10 +9,10 @@
 }
 
 .para {
-  font-size: 22px;
+  
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-size: 20px;
@@ -23,13 +24,12 @@
   color: black;
   font-size: 20px;
 }
+.text {
+  color: green;
+  font-size: 28px;
+}
 
 .child {
   color: red;
   font-size: 14px;
-}
-
-div.text {
-  color: green;
-  font-size: 28px;
-}
+} 
