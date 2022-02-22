@@ -1,6 +1,9 @@
-.header  {
+.header  { /*container grande */
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .logo {
@@ -9,11 +12,21 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  display: flex;
+  align-items: center;
+  margin: 8px;
 }
 
-ul {
+ul { /*container*/
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  
 }
 
 a {
@@ -22,4 +35,15 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  margin: 4px;
 }
+
+.left-links, .right-links {
+
+  display: flex;
+  align-items: center;
+  
+}
+
+/* DE DONDE SALIO EL PADDING-LEFT ORIGINAL DEL UL DE LA IZUIERDA? en la pista en README decia que habia que sacarlo jeje
+
