@@ -6,12 +6,17 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+
 }
 
 .profile-image {
@@ -29,12 +34,14 @@ body {
   font-style: italic;
 }
 
-button {
+.notifications {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  display: flex;
+  gap: 16px;
 }
 
 a {
@@ -43,6 +50,23 @@ a {
   color: rebeccapurple;
 }
 
-ul {
+.links {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding: 0px;
+}
+
+.left {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+
+}
+
+.right{
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
